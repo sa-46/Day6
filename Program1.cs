@@ -76,7 +76,7 @@ namespace Day6
             return newArray;
         }
 
-        static void PrintArray(int[] A)
+        public static void PrintArray(int[] A)
         {
             Console.Write("[ ");
             Console.Write(string.Join(",", A));

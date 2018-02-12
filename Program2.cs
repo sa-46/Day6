@@ -20,7 +20,7 @@ namespace Day6
             Console.WriteLine("Even elements: {0}", evenNumbers);
         }
 
-        delegate bool Criteria(int x);
+        delegate bool Criteria(int x); //new
 
         static int CountByCriteria(Criteria ops)
         {
@@ -40,6 +40,7 @@ namespace Day6
         }
 
         static int[,] theArray;
+
 
         static void InitializeArray()
         {
